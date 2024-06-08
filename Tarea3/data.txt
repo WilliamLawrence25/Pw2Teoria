@@ -1,0 +1,1 @@
+[{"name": "Fulanoo", "number": "99999999", "direction": "Calle A", "relation": "UNSA"}, {"name": "Beltrano", "number": "88889999", "direction": "Calle C", "relation": "Infancia"}, {"name": "Fulano", "number": "77777777", "direction": "Calle D", "relation": "UNSA"}]
