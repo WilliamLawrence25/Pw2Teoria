@@ -5,9 +5,11 @@ import os
 # Create your views here.
 
 def myHomeView(request, *args, **kwargs):
-    print (args, kwargs)
-    print (request.user)
-    return render(request, "home.html", {})
+    myContent = {
+        'myText': 'Esto es sobre nosotros',
+        'myNumber': 123,
+    }
+    return render(request, "home.html", myContent)
 
 def anotherView(request):
     return HttpResponse('<h1>Solo otra pagina</h1>')
